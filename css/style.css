@@ -20,9 +20,12 @@ img{
    margin: auto;
 }
 .sm-container{
-    max-width: 1400px;
+    max-width: 1200px;
     width: 65%;
     margin:auto;
+}
+[class^="col-"]{
+    margin: 0;
 }
 .col-4{
     width: calc((100% / 12)*4);
@@ -111,13 +114,12 @@ img{
     }
     .btn{
         display: flex;
-        align-self: flex-start;
         background-color: #0061ff;
         padding: 0.5rem;
         color: white;
         border: 0;
         border-radius: 2%;
-        margin: 1.5rem;
+        
     }
 
 /* #endregion header */
@@ -125,19 +127,32 @@ img{
 /* #region main */
     .jumbotron{
         background-color: #b4d0e7;
+        height: 550px;
     }
    .txt{
-    width: 80%;
     display: flex;
     justify-content: center;
     justify-items: center;
     font-size: 55px;
     padding: 5px;
-    padding-left: 30px;
+    margin: auto;
    }
    .offer-to-client{
     display: inline-block;
-    height: 465px;
 
    }
+
+.find-plan{
+    margin: 2rem;
+    text-align: center;
+    font-size: 45px;
+}
+  .radio{
+    justify-content: center;
+    align-items: center;
+    gap:0.25rem;
+  }
+  .radio-r{
+    margin-left: 1rem;
+  }
 /* #endregion main */
