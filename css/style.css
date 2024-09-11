@@ -50,7 +50,13 @@
 
 /* #region header */
     .logo{
-        padding: 1rem;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        align-self: center;
+        height: max-content;
+        width: max-content;
+        padding:0.5rem;
     }
     .left-menu{
          display: flex;
