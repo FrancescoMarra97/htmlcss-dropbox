@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 
-
 /* utilities */
-.dflex{
+.d-flex{
     display: flex;
 }
 .justify-space-between{
@@ -39,3 +38,51 @@
 .debug *{
     border: 1px dashed black;
 }
+.debug header{
+    height: 100px;
+}
+.debug main{
+    height: 6620px;
+}
+.debug footer{
+    height: 570px;
+}
+
+/* #region header */
+    .logo{
+        padding: 1rem;
+    }
+    .left-menu{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 1.5rem;
+    }
+    a{
+        text-decoration: none;
+        color: grey;
+        padding: 0.75rem;
+    }
+    .right-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .start{
+        background-color: #0061ff;
+        padding: 0.5rem;
+        color: white;
+        border: 0;
+        border-radius: 2%;
+    }
+    .call-to-action{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+
+/* #endregion header */
