@@ -198,6 +198,12 @@ img{
         color: white;
         margin: 1rem;
     }
+    .btn4{
+        background-color: white;
+        padding: 0.5rem;
+        color:gray;
+        border: 1px solid grey;
+    }
     button.btn{
         align-items: center;
         margin: 1rem;
@@ -210,6 +216,9 @@ img{
     }
     .m-left{
         margin-left: 1rem;
+    }
+    .m-bottom{
+        margin-bottom: 1rem;
     }
     .mg{
         margin: 1rem;
@@ -273,4 +282,14 @@ img{
     div.col-12{
         margin-top: 20px;
     }
+
+    .keep-in-touch{
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .txt2{
+        font-size: 40px;
+        margin-bottom: 1.5rem;
+    }
+    
 /* #endregion main */
