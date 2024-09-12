@@ -362,7 +362,7 @@ img{
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        padding: 10px;
+        
         
     }
     .left{
@@ -425,7 +425,6 @@ img{
   display: none;
     }
     .logos{
-        margin: 5rem;
         border-collapse: collapse;
     }
     /* squares */
@@ -446,5 +445,28 @@ img{
         background-color:#00e3e3;
         filter: invert(1);
     }
+    .right .square:first-child{
+        background-color: #2affe0;
+        filter: invert(1);
+    }
+    .right .square:nth-child(2){
+        background-color:#4b2f18;
+        filter: invert(1);
+    }
+    .right .square:nth-child(3){
+        background-color:#f2db7e;
+        filter: invert(1);
+    }
+    .right .square:last-child{
+        background-color:#0027cf;
+        filter: invert(1);
+    }
+    .pos{
+    position: absolute;
+    right: 30%;
+    bottom: 40%;
+    width: 100px;
+}
+    
     
 /* #endregion main */
