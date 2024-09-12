@@ -183,4 +183,8 @@ img{
     .brd{
         border: 1px solid grey;
     }
+    .cards{
+        justify-content: space-between;
+        
+    }
 /* #endregion main */
