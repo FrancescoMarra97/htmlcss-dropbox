@@ -348,6 +348,7 @@ img{
         width: calc(50% - 20px);
         height: calc(50% - 20px);
     }
+
     .middle .square{
         width: 100%;
         height: 100%;
@@ -425,5 +426,25 @@ img{
     }
     .logos{
         margin: 5rem;
+        border-collapse: collapse;
     }
+    /* squares */
+    .left .square:first-child{
+        background-color: #5d2c64;
+        filter: invert(1);
+        
+    }
+    .left .square:nth-child(2){
+        background-color:#9ef7d4;
+        filter: invert(1);
+    }
+    .left .square:nth-child(3){
+        background-color:#ff6c31;
+        filter: invert(1);
+    }
+    .left .square:last-child{
+        background-color:#00e3e3;
+        filter: invert(1);
+    }
+    
 /* #endregion main */
