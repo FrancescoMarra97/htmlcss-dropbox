@@ -241,7 +241,9 @@ img{
     .m-top{
         margin-top: 1rem;
     }
-    
+    .af-start{
+        align-items: flex-start;
+    }
     
     .partners{
         margin-top: 50px;
