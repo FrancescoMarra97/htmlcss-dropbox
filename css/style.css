@@ -15,6 +15,15 @@ img{
 .justify-space-between{
     justify-content: space-between;
 }
+.justify-center{
+    justify-content: center;
+}
+.justify-flex-start{
+    justify-content: flex-start;
+}
+.justify-flex-end{
+    justify-content: flex-end;
+}
 .container{
    max-width: 1400px;
    width: 80%;
@@ -44,6 +53,9 @@ img{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -1rem;
+}
+.text-center{
+    text-align: center;
 }
 
 /* debug */
@@ -84,7 +96,7 @@ img{
          gap: 1.5rem;
          padding: 1rem;
     }
-    a{
+    header a{
         text-decoration: none;
         color: grey;
         padding: 0.75rem;
@@ -130,7 +142,11 @@ img{
    }
    .offer-to-client{
     display: inline-block;
-
+   }
+   .cancel{
+    margin-left: 1.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
    }
 
 .find-plan{
@@ -155,14 +171,23 @@ img{
     text-align:left;
     }
     .btn{
+        margin-left: 1rem;
         display: flex;
         background-color: #0061ff;
         padding: 0.5rem;
         color: white;
         border: 0;
         border-radius: 2%;
-        align-items: flex-end;
+        /* align-items: flex-end; */
         
+    }
+    .btn2{
+        background-color: #0061ff;
+        padding: 0.5rem;
+        color: white;
+        border: 0;
+        border-radius: 2%;
+        align-items: center;
     }
     button.btn{
         align-items: center;
@@ -170,17 +195,60 @@ img{
     .pln{
         display: inline;
     }
-    .cnt{
+    /* .cnt{
         display: flex;
         justify-content: center;
         border-top: 1px solid grey;
         border-bottom: 1px solid grey;
-    }
+    } */
     
     .partners{
         margin-top: 50px;
     }
     .brd{
         border: 1px solid grey;
+    }
+    .item{
+        border: 1px solid grey;
+    }
+    h3{
+        padding: 1rem;
+        font-size: larger;
+    }
+    .price{
+        padding-left:1rem ;
+        padding-top: 0.5rem; ;
+    }
+    .period{
+        padding-left:1rem ;
+        padding-top: 0.5rem; 
+        padding-bottom: 1rem;
+        color: rgb(136, 136, 136);
+    }
+    ul{
+        list-style: none;
+        padding: 1rem;
+    }
+    li{
+        padding: 0.5rem;
+    }
+    .radio{
+        margin-left: 50px; 
+        margin: 4rem;
+       
+    }
+    .shop-now{
+        margin: 1rem;
+    }
+    hr{
+        color: grey;
+        width: 15%;
+        margin: 1rem;
+    }
+    h4{
+        margin: 1rem;
+    }
+    .check{
+        color: #0061ff;
     }
 /* #endregion main */
