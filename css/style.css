@@ -238,12 +238,10 @@ img{
     .mg{
         margin: 1rem;
     }
-    /* .cnt{
-        display: flex;
-        justify-content: center;
-        border-top: 1px solid grey;
-        border-bottom: 1px solid grey;
-    } */
+    .m-top{
+        margin-top: 1rem;
+    }
+    
     
     .partners{
         margin-top: 50px;
@@ -386,5 +384,15 @@ img{
     .bring{
         background-color: #b4d0e7;
         height: 300px;
+    }
+    footer{
+        background-color: #000000;
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+    footer h3{
+        color:white;
     }
 /* #endregion main */
