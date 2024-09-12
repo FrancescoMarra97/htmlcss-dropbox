@@ -380,12 +380,10 @@ img{
         display: flex;
         flex-wrap: wrap;
     }
-    .bgc-green{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
+    .middle{
+        background-color: #f5f5f5;
     }
+    
     .bring{
         background-color: #b4d0e7;
         height: 300px;
@@ -424,5 +422,8 @@ img{
     }
     .ask li:hover .fa-angle-down {
   display: none;
+    }
+    .logos{
+        margin: 5rem;
     }
 /* #endregion main */
