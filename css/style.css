@@ -283,7 +283,7 @@ img{
         margin-top: 20px;
     }
     .partners{
-        margin: 60px;
+        padding: 60px;
     }
 
     .keep-in-touch{
@@ -300,5 +300,26 @@ img{
     }
     .p-left{
         padding-left: 1rem;
+    }
+    .operations{
+        padding: 60px;
+    }
+    .users{
+        height: 400px;
+    }
+    .drop-bus{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .text-left{
+        text-align: left;
+        font-size: 45px;
+        width: 65%;
+        margin: 1.5rem;
+    }
+    .find{
+        font-size: 20px;
+        margin: 1.5rem;
     }
 /* #endregion main */
