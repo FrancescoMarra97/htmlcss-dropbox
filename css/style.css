@@ -39,6 +39,7 @@ img{
 }
 .col-4{
     width: calc((100% / 12)*4);
+    height: 100%;
 }
 .col-6{
     width: calc((100% /12)*6);
@@ -189,11 +190,29 @@ img{
         border-radius: 2%;
         align-items: center;
     }
+    .bt3{
+        display: flex;
+        align-self: center;
+        background-color: #0061ff;
+        padding: 0.5rem;
+        color: white;
+        margin: 1rem;
+    }
     button.btn{
         align-items: center;
+        margin: 1rem;
     }
     .pln{
         display: inline;
+    }
+    .p-top{
+        padding-top: 2.5rem;
+    }
+    .m-left{
+        margin-left: 1rem;
+    }
+    .mg{
+        margin: 1rem;
     }
     /* .cnt{
         display: flex;
@@ -250,5 +269,8 @@ img{
     }
     .check{
         color: #0061ff;
+    }
+    div.col-12{
+        margin-top: 20px;
     }
 /* #endregion main */
