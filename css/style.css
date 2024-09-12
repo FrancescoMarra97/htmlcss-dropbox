@@ -214,6 +214,11 @@ img{
         color:gray;
         border: 1px solid grey;
     }
+    .btn5{
+        background-color: white;
+        padding: 0.5rem;
+        color:gray;
+    }
     button.btn{
         align-items: center;
         margin: 1rem;
@@ -319,8 +324,9 @@ img{
     }
     .drop-bus{
         display: flex;
-        justify-content: center;
+        justify-content:space-between;
         align-items:center;
+        margin-top: 3rem;
     }
     .text-left{
         text-align: left;
@@ -376,5 +382,9 @@ img{
         justify-content: center;
         align-items: center;
         align-content: center;
+    }
+    .bring{
+        background-color: #b4d0e7;
+        height: 300px;
     }
 /* #endregion main */
