@@ -256,6 +256,12 @@ img{
     }
     .item{
         border: 1px solid grey;
+        
+    }
+    .item-body{
+        border: 1px solid grey;
+        min-height: 650px;
+        
     }
     h3{
         padding: 1rem;
@@ -345,8 +351,8 @@ img{
       
     }
     .left .square , .right .square{
-        width: calc(50% - 20px);
-        height: calc(50% - 20px);
+        width: calc(50% );
+        height: calc(50% );
     }
 
     .middle .square{
