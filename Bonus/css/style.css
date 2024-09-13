@@ -484,6 +484,8 @@ img{
     }
 
 /* #endregion main */
+
+/* responsive */
 @media screen and (max-width: 800px) {
     body {
         background-color: #d5001f;
@@ -501,4 +503,21 @@ img{
             background-color: purple;
         }
         
+    }
+    @media screen and (max-width: 1000px){
+       .left-menu, .logo, .right-menu, .call-to-action{
+            flex-direction: column;
+        }
+
+    }
+    @media screen and (max-width: 900px){
+        .row{
+            flex-direction: column;
+        }
+        section{
+            margin-top: 300px;
+        }
+        .plans{
+            margin-top: 700px;
+        }
     }
