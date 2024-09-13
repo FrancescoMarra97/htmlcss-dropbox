@@ -258,9 +258,14 @@ img{
         border: 1px solid grey;
         
     }
+    .item-header{
+        border: 1px solid grey;
+        width: 80%;
+    }
     .item-body{
         border: 1px solid grey;
-        min-height: 650px;
+        min-height: 780px;
+        width: 80%;
         
     }
     h3{
@@ -346,9 +351,6 @@ img{
     .find{
         font-size: 20px;
         margin: 1.5rem;
-    }
-    .square{
-      
     }
     .left .square , .right .square{
         width: calc(50% );
@@ -476,7 +478,9 @@ img{
     
  button:hover { 
     filter: brightness(1.4)
-}
-
+  }
+    a:hover{
+    filter: brightness(1.4);
+    }
 
 /* #endregion main */
